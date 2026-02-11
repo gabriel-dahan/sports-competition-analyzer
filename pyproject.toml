@@ -1,3 +1,25 @@
 [build-system]
 requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "sportix_project"
+version = "0.0.1"
+authors = [
+    { name="Meline BONAVERO", email="..." },
+    { name="Kevin BRUGAL", email="..." },
+    { name="Gabriel DAHAN", email="work@gabrieldahan.me" },
+]
+description = "Python app made in the context of an engineering project at ENSAI (1st year), for sports competition management. "
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/gabriel-dahan/sportix-project"
+Issues = "https://github.com/gabriel-dahan/sportix-project/issues"
